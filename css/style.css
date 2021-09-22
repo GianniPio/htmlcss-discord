@@ -23,13 +23,19 @@ a{
     text-decoration: none;
     color: #f4f6fd;
 }
+
+h1{
+    color: white;
+    font-size:  70px;
+    text-align: center;
+}
 /* Tag header */
 
 header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     width: 100vw;
-    height: 70vh;
+    height: 75vh;
     position: relative;
 }
 
@@ -56,8 +62,18 @@ li{
     left: 50%;
     transform: translate(-50%, -50%);
     height: 60%;
-    width: 60%;
-    background-color: yellow;
+    width: 50%;
+}
+
+.jumbotron > h1{
+    margin: 10px 0 40px 0;
+}
+
+.jumbotron > p{
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    line-height: 150%;
 }
 
 /* tag main */
