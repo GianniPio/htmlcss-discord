@@ -9,23 +9,56 @@
 
 .container{
     height: 100%;
-    width: 80%;
+    width: 70%;
     margin: auto;
     position: relative;
 }
 
+.clearflix::after{
+    content: none;
+    display: table;
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+    color: #f4f6fd;
+}
 /* Tag header */
 
 header{
-    background-color: #3161e0;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     width: 100vw;
-    height: 75vh;
+    height: 70vh;
 }
 
 .menu{
-    height: 10%;
+    height: 15%;
     width: 100%;
-    background-color: red;
+    padding-top: 20px;
+}
+
+#logo{
+    clear: left;
+    display:inline-block;
+}
+
+/* ul{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 20%;
+    clear: left;
+    padding-bottom: 20px;
+} */
+
+li{
+    display: inline-block;
+    margin-left: 10%;
+    padding-right: 0.1%;
+    clear: left;
+    color: #f4f6fd;
+    font-size: 20px;
 }
 
 .jumbotron{
