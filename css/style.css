@@ -6,3 +6,42 @@
     box-sizing: border-box;
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
+
+.container{
+    border: 1px solid black;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    background-color: green;
+    position: relative;
+}
+
+/* Tag header */
+
+header{
+    background-color: #3161e0;
+    width: 100vw;
+    height: 80vh;
+}
+
+.menu{
+    border: 1px solid black;
+    height: 10%;
+    width: 100%;
+    background-color: red;
+}
+
+.jumbotron{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    height: 60%;
+    width: 80%;
+    background-color: yellow;
+}
+
+/* Tag main */
+
+/* Tag footer */
