@@ -1,2 +1,2 @@
-# tmlcss-discord
+# htmlcss-discord
 Discord
