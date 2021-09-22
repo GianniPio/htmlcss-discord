@@ -29,6 +29,10 @@ h1{
     font-size:  70px;
     text-align: center;
 }
+
+.click{
+    cursor: pointer;
+}
 /* Tag header */
 
 header{
@@ -74,6 +78,34 @@ li{
     color: white;
     text-align: center;
     line-height: 150%;
+}
+
+.under{
+    height: 30%;
+    width: 100%;
+    line-height: 650%;
+}
+
+.bottone{
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 25px;
+    margin: 10px;
+}
+
+#download{
+    background-color: #ffffff;
+    color: #2b2f32;
+    padding: 20px;
+    margin-left: 150px;
+}
+
+#browser{
+    background-color: #23272a;
+    padding: 25px;
+    color: white;
+    margin-left: 30px;
+
 }
 
 /* tag main */
