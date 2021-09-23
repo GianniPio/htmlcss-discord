@@ -97,15 +97,14 @@ li{
     background-color: #ffffff;
     color: #2b2f32;
     padding: 20px;
-    margin-left: 150px;
+    margin-left: 160px;
 }
 
 #browser{
     background-color: #23272a;
     padding: 25px;
     color: white;
-    margin-left: 30px;
-
+    margin-left: 100px;
 }
 
 /* tag main */
@@ -123,6 +122,7 @@ li{
     background-color: rgb(0, 183, 255);
     height: 100%;
     width: 60%;
+    float: left;
 }
 
 .destra-uguale{
@@ -136,6 +136,7 @@ li{
     background-color: orchid;
     height: 100%;
     width: 40%;
+    float: left;
 }
 
 #destra{
